@@ -6,7 +6,7 @@ The APIs Used Can Be Found [Here](https://corona.lmao.ninja/)
 ## Features
 
 - Worldwide Stats (The Figures Updates Every 10 Min).
-- Countrywise Stats.
+- Countrywise Stats (The Figures Updates Every 10 Min).
 - Real Time Search Results.
 - Consist Of FAQs.
 - Donate For The Nobel Cause In One Click.
