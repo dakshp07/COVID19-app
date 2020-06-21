@@ -1,6 +1,22 @@
-# covid19app
+## COVID19 Tracking App
 
-A new Flutter application.
+A COVID19 Tracking App Which is made using Dart and Flutter.
+The APIs Used Can Be Found [Here](https://corona.lmao.ninja/) 
+
+## Features
+
+- Worldwide Stats (The Figures Updates Every 10 Min).
+- Countrywise Stats.
+- Real Time Search Results.
+- Consist Of FAQs.
+- Donate For The Nobel Cause In One Click.
+
+## Images
+![First](images/Screenshot_1592754776.png)
+
+![Second](images/Screenshot_1592754841.png)
+
+![Third](images/Screenshot_1592754851.png)
 
 ## Getting Started
 
