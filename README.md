@@ -16,7 +16,9 @@ The APIs Used Can Be Found [Here](https://corona.lmao.ninja/)
 
 ![Second](images/Screenshot_1592754841.png)
 
-![Third](images/Screenshot_1592754851.png)
+![Third](images/Screenshot_1592811163.png)
+
+![Fourth](images/Screenshot_1592814252.png)
 
 ## Getting Started
 
