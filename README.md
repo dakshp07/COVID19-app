@@ -12,7 +12,7 @@ The APIs Used Can Be Found [Here](https://corona.lmao.ninja/)
 - Donate For The Nobel Cause In One Click.
 
 ## Images
-![First](images/Screenshot_1592754776.png)
+![First](images/Screenshot_1592918522.png)
 
 ![Second](images/Screenshot_1592754841.png)
 
