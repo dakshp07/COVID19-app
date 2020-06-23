@@ -50,6 +50,55 @@ class _HomePageState extends State<HomePage> {
       appBar: new AppBar(
         title: new Text("COVID19 TRACKING APP",style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.bold),),
       ),
+      drawer : new Drawer(
+        child: new ListView(
+          children: <Widget>[
+            new UserAccountsDrawerHeader(
+                accountName: new Text("COVID19 Tracking App",style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.bold),),
+                accountEmail: new Text("covid19help@gmail.com",style: TextStyle(fontSize: 15,color: Colors.white),),
+                currentAccountPicture: new CircleAvatar(
+                  backgroundColor: Colors.red[400],
+                  child: new Text("CT",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+                )  ,
+            ),
+            new ListTile(
+              title: new Text("Worldwide Stats",style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.bold),),
+              trailing: new Icon(Icons.show_chart,size: 20,color: Colors.white,),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>HomePage() ));
+              },
+            ),
+            new Padding(padding: const EdgeInsets.only(top: 10)),
+            new ListTile(
+              title: new Text("Country Stats",style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.bold),),
+              trailing: new Icon(Icons.show_chart,size: 20,color: Colors.white,),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>CountryData() ));
+              },
+            ),
+            new Padding(padding: const EdgeInsets.only(top: 10)),
+            new ListTile(
+              title: new Text("FAQs",style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.bold),),
+              trailing: new Icon(Icons.arrow_forward,size: 20,color: Colors.white,),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>FaqPage() ));
+              },
+            ),
+            new Padding(padding: const EdgeInsets.only(top: 10)),
+            new Divider(
+              height: 10,thickness: 2,color: Colors.grey[700],
+            ),
+            new Padding(padding: const EdgeInsets.only(top: 10)),
+            new ListTile(
+              title: new Text("Close",style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.bold),),
+              trailing: new Icon(Icons.close,size: 20,color: Colors.white,),
+              onTap: (){
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
+      ),
       body: new Container(
         padding: const EdgeInsets.all(20),
         child: new SingleChildScrollView(
