@@ -3,6 +3,18 @@
 A COVID19 Tracking App Which is made using Dart and Flutter.
 The APIs Used Can Be Found [Here](https://corona.lmao.ninja/) 
 
+## Packages Used :
+
+The Following Dart And Flutter Packages Has Been Used In The Project.
+```dart
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+import 'countrydata.dart';
+import 'faqs.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+```
+
 ## Features
 
 - Worldwide Stats (The Figures Updates Every 10 Min).
@@ -12,6 +24,7 @@ The APIs Used Can Be Found [Here](https://corona.lmao.ninja/)
 - Donate For The Nobel Cause In One Click.
 
 ## GitHub 
+
 If You Want To Create A New Repository In Your GitHub Then Do Following Steps :
 1) Open Git Bash.
 2) Run The Following Commands :
@@ -36,6 +49,7 @@ $ git push origin master
 ```
 
 ## GitHub  Clone
+
 If You Want To Clone This Repository Then Do The Following Steps :
 1) Open Git Bash.
 2) Run The Following Commands :
