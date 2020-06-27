@@ -10,7 +10,6 @@ The Following Dart And Flutter Packages Has Been Used In The Project.
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'countrydata.dart';
-import 'faqs.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 ```
