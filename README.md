@@ -3,7 +3,7 @@
 A COVID19 Tracking App Which is made using Dart and Flutter.
 The APIs Used Can Be Found [Here](https://corona.lmao.ninja/) 
 
-## Packages Used :
+## Packages Used 
 
 The Following Dart And Flutter Packages Has Been Used In The Project.
 ```dart
