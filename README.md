@@ -11,6 +11,38 @@ The APIs Used Can Be Found [Here](https://corona.lmao.ninja/)
 - Consist Of FAQs.
 - Donate For The Nobel Cause In One Click.
 
+## GitHub 
+If You Want To Create A New Repository In Your GitHub Then Do Following Steps :
+1) Open Git Bash.
+2) Run The Following Commands :
+```git
+#Initialize the local directory as a Git repository using :
+$ git init
+
+#Add the files in your new local repository. This stages them for the first commit. Use The Following Command :
+$ git add .
+
+#Commit the files that you've staged in your local repository.
+$ git commit -m "First commit"
+
+#In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
+$ git remote add origin remote repository URL
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+
+#Push the changes in your local repository to GitHub.
+$ git push origin master
+```
+
+## GitHub  Clone
+If You Want To Clone This Repository Then Do The Following Steps :
+1) Open Git Bash.
+2) Run The Following Commands :
+```git
+$ git clone https://github.com/dakshp07/COVID19-app.git
+```
+
 ## Images
 ![First](images/Screenshot_1592918522.png)
 
