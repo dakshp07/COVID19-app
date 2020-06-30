@@ -55,7 +55,7 @@ $ git clone https://github.com/dakshp07/COVID19-app.git
 ```
 
 ## Images
-![First](images/Screenshot_1592918522.png)
+![First](images/Screenshot_1593525932.png)
 
 ![Second](images/Screenshot_1592754841.png)
 
