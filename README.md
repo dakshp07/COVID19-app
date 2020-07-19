@@ -14,12 +14,12 @@ import 'package:http/http.dart' as http;
 
 ## Features
 
-- Worldwide Stats (The Figures Updates Every 10 Min).
-- Countrywise Stats (The Figures Updates Every 10 Min).
-- Last 24 Hours Increase In Recoveries , Deaths , Confirmed Cases. 
-- Real Time Search Results.
-- Consist Of FAQs.
-- Donate For The Nobel Cause In One Click.
+- Worldwide Stats (The Figures Updates Every 10 Min) 📈📉📊
+- Countrywise Stats (The Figures Updates Every 10 Min) 📈📉📊
+- Last 24 Hours Increase In Recoveries , Deaths , Confirmed Cases 🦠 
+- Real Time Search Results 🔍
+- Consist Of FAQs 🧐
+- Donate For The Nobel Cause In One Click ✅
 
 ## GitHub 
 
